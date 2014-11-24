@@ -6,7 +6,7 @@ describe('Javabuzz', function() {
 
     it('divisible by 3', function() {
       javabuzz = new Javabuzz();
-      expect(isDivisibleByThree(3)).toEqual(true);
+      expect(javabuzz.isDivisibleByThree(3)).toEqual(true);
     });
 
   });
